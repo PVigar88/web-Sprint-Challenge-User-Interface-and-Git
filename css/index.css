@@ -198,6 +198,16 @@ p {
   align-items: center;
   justify-content: center;
 }
+.about-mid-content {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.content-cell {
+  /* padding: 1em; */
+  margin: 1em;
+  /* border: 1px solid black; */
+  border-bottom: 1px dashed black;
+}
 
 .bottom-content {
   display: flex;
@@ -246,8 +256,10 @@ header nav {
   margin-right: 25%;
 }
 header nav a {
-  padding: 0 15% 0 15%;
+  padding: 0 26% 0 20%;
   text-decoration: none;
+  color: black;
+  font-size: small;
 }
 #box1 {
   background-color: teal;
