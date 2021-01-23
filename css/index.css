@@ -171,6 +171,9 @@ p {
   padding: 0 1%;
   padding-bottom: 20px;
 }
+.about-top {
+  margin-bottom: 1em;
+}
 
 .middle-content {
   margin-bottom: 20px;
@@ -202,11 +205,29 @@ p {
   display: flex;
   /* justify-content: space-evenly; */
 }
+
 .content-cell {
   /* padding: 1em; */
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
   margin: 1em;
   /* border: 1px solid black; */
   border-bottom: 1px dashed black;
+}
+.content-cell img {
+  margin-bottom: 1em;
+}
+.content-cell a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  padding: 2%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: 30%;
+  text-align: center;
 }
 
 .bottom-content {
@@ -242,7 +263,7 @@ footer nav a {
   text-decoration: none;
 }
 header {
-  /* flexing the header so the nav bar aligns with the lambda image*/
+  /* flexing the header so the nav bar aligns with the lambda image. Baseline for align items so the text in the nav bar is aligned with the bottom of the img. */
   display: flex;
   flex-flow: row nowrap;
   align-items: baseline;
