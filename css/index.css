@@ -247,6 +247,7 @@ header nav {
 }
 header nav a {
   padding: 0 15% 0 15%;
+  text-decoration: none;
 }
 #box1 {
   background-color: teal;
@@ -277,4 +278,7 @@ header nav a {
 }
 #box10 {
   background-color: dodgerblue;
+}
+.bannerImg {
+  margin-bottom: 1em;
 }
